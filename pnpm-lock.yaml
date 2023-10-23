@@ -7,6 +7,9 @@ dependencies:
   vue:
     specifier: '2.6'
     version: 2.6.14
+  vue-router:
+    specifier: '3'
+    version: 3.6.5(vue@2.6.14)
   vue-template-compiler:
     specifier: '2.6'
     version: 2.6.14
@@ -1797,6 +1800,14 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
+
+  /vue-router@3.6.5(vue@2.6.14):
+    resolution: {integrity: sha512-VYXZQLtjuvKxxcshuRAwjHnciqZVoXAjTjcqBTz4rKc8qih9g9pI3hbDjmqXaHdgL3v8pV6P8Z335XvHzESxLQ==}
+    peerDependencies:
+      vue: ^2
+    dependencies:
+      vue: 2.6.14
+    dev: false
 
   /vue-template-babel-compiler@1.2.0(vue-template-compiler@2.6.14):
     resolution: {integrity: sha512-CScBSX1/wCdmmZ/Lvj/63p2CCVTS0FMj0F69VRBo73CuJrjvPAPGmeNJ7D/cwt/VS2PduowRWbO8N4Zh4Z3b0g==}

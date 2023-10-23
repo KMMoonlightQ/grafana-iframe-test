@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app1">
     <div>
       <iframe
         src="https://cam.camstage.org/grafana9/d/ru1eHxUGz/netvalue-overview-fund?orgId=1&kiosk=tv&df=df&var-company=qb&var-lang=en&var-dept=qb/default&from=now-24h&to=now"
@@ -39,7 +39,7 @@ export default {
   height: 100vh;
 }
 
-#app {
+#app1 {
   /* width: 1200px; */
   /* height: 3000px; */
   height: 100%;
