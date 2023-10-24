@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CPU Load Test</title>
+  </head>
+  <body>
+    <button onclick="consumeCPU()">点击我消耗CPU</button>
+    <p id="counter">累加器: 0</p>
+
+    <script>
+      function consumeCPU() {
+        const endTime = Date.now() + 10000; // 10 seconds from now
+        let accumulator = 0;
+
+        while (Date.now() < endTime) {
+          accumulator++;
+          document.getElementById("counter").innerText =
+            "累加器: " + accumulator;
+        }
+        alert("CPU消耗完毕！");
+      }
+    </script>
+  </body>
+</html>
